@@ -5,7 +5,7 @@ Loop through a html string and processes the script tags, with a single function
 
 <pre>
 
-evaluateScriptTags("<div></div><script>alert("working");</script>");
+evaluateScriptTags("&lt;div&gt;&lt;/div&gt;<script>alert("working");</script>");
 
 </pre>
 

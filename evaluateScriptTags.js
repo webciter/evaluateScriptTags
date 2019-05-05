@@ -1,14 +1,14 @@
     /* Code By David Clews */
     
     /*
-     * evaluateScriptTag
+     * evaluateScriptTags
      * 
      * Loops through the html string and processes the script tags
      * 
      * @param {string} a The complete string that contains HTML and Script Tags
      * @return {Promise}
      */
-    function evaluateScriptTag(a){ 
+    function evaluateScriptTags(a){ 
         
         return new Promise(function(c, d){
             let b = document.createElement("div");
